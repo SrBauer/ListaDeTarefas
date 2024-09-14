@@ -105,3 +105,4 @@ C:\Users\User\Documents\Aulas C#\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0\
 C:\Users\User\Documents\Aulas C#\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.pdb
 C:\Users\User\Documents\Aulas C#\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.genruntimeconfig.cache
 C:\Users\User\Documents\Aulas C#\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0\ref\ListaDeTarefas.dll
+C:\Users\User\Documents\Aulas C#\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0\ListaDeTarefas.sourcelink.json

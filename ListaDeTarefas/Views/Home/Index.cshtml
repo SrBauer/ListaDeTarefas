@@ -1,25 +1,47 @@
 ﻿@model IEnumerable<Tarefa>
 
-    <div class="=row">
-        <div class="col-md-2">
+<div class="row">
+    <div class="col-md-2">
 
-            <form asp-action="Filtrar" asp-controller="Home" method="post">
-
-                <div class="md-3">
-                    <label class="form-label">Categoria</label>
-                    <select
-                        name="filtro"
+        <form asp-action="Index" asp-controller="Home" method="get">
+            <!-- Filtro de Categoria -->
+            <div class="md-3">
+                <label class="form-label">Categoria</label>
+                <select name="CategoriaId"
                         class="form-select"
-                        asp.items="@(new SelectList(ViewBag.Categorias,"CategoriaId", "Nome", ViewBag.Filtros.CategoriaId))>
+                        asp-items="@(new SelectList(ViewBag.Categorias, "CategoriaId", "Nome", ViewBag.Filtros.CategoriaId))">
+                    <option value="todos">Todos</option>
+                </select>
+            </div>
 
-                        <option value="Todos">
-                    </select>
-                </div>
+            <!-- Filtro de Data de Vencimento -->
+            <div class="md-3">
+                <label class="form-label">Data de Vencimento</label>
+                <select name="Vencimento"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.VencimentoValores, "Key", "Value", ViewBag.Filtros.Vencimento))">
+                    <option value="todos">Todos</option>
+                </select>
+            </div>
 
-            </form>
+            <!-- Filtro de Situação -->
+            <div class="md-3">
+                <label class="form-label">Situação</label>
+                <select name="StatusId"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.Status, "StatusId", "Nome", ViewBag.Filtros.StatusId))">
+                    <option value="todos">Todos</option>
+                </select>
+            </div>
 
-
-        </div>
-
+            <div class="md-3">
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </div>
+        </form>
 
     </div>
+
+    <div class="col-md-10">
+
+    </div>
+</div>

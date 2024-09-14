@@ -2,40 +2,30 @@
 {
     public class Filtros
     {
-        public Filtros(string filtroString) 
+        public string CategoriaId { get; set; }
+        public string Vencimento { get; set; }
+        public string StatusId { get; set; }
+
+        public bool TemCategoria => !string.IsNullOrEmpty(CategoriaId) && CategoriaId != "todos";
+        public bool Temstatus => !string.IsNullOrEmpty(StatusId) && StatusId != "todos";
+        public bool TemVencimentos => !string.IsNullOrEmpty(Vencimento) && Vencimento != "todos";
+        public bool EPassado => Vencimento == "passado";
+        public bool EFuturo => Vencimento == "futuro";
+        public bool EHoje => Vencimento == "hoje";
+
+        public Filtros(string categoriaId, string vencimento, string statusId)
         {
-            FiltroString = filtroString ?? "todos-todos-todos";
-            string[] filtros = FiltroString.Split("-");
-
-            CategoriaId = filtros[0];
-            Vencimento = filtros[1];
-            StatusId = filtros[2];
-
+            CategoriaId = categoriaId;
+            Vencimento = vencimento;
+            StatusId = statusId;
         }
 
-
-        public string FiltroString { get; set; }
-        public string CategoriaId { get; set; }
-        public string StatusId { get; set; }
-        public string Vencimento { get; set; }
-
-        public bool TemCategoria => CategoriaId.ToLower() != "todos";
-        public bool TemVencimentos => Vencimento.ToLower() != "todos";
-        public bool Temstatus => StatusId.ToLower() != "todos";
-
-
-        public static Dictionary<string, string> VencimentoValoresFiltro =>
-            new Dictionary<string, string>
-            {
-                {"futuro" , "Futuro" },
-                {"passado" , "Passado" },
-                {"hoje" , "Hoje" }
-            };
-
-
-        public bool EPassado => Vencimento.ToLower() == "passado";
-        public bool EFuturo => Vencimento.ToLower() == "futuro";
-        public bool EHoje => Vencimento.ToLower() == "hoje";
-
+        public static Dictionary<string, string> VencimentoValoresFiltro => new Dictionary<string, string>
+        {
+            {"todos", "Todos"},
+            {"passado", "Passado"},
+            {"futuro", "Futuro"},
+            {"hoje", "Hoje"}
+        };
     }
 }
