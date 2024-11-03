@@ -9,7 +9,9 @@
                 <label class="form-label">Categoria</label>
                 <select name="CategoriaId"
                         class="form-select"
-                        asp-items="@(new SelectList(ViewBag.Categorias, "CategoriaId", "Nome", ViewBag.Filtros.CategoriaId))">
+                        asp-items="@(new SelectList(ViewBag.Categorias, "CategoriaId", 
+                                                                        "Nome", 
+                                                                        ViewBag.Filtros.CategoriaId))">
                     <option value="todos">Todos</option>
                 </select>
             </div>
@@ -19,7 +21,9 @@
                 <label class="form-label">Data de Vencimento</label>
                 <select name="Vencimento"
                         class="form-select"
-                        asp-items="@(new SelectList(ViewBag.VencimentoValores, "Key", "Value", ViewBag.Filtros.Vencimento))">
+                        asp-items="@(new SelectList(ViewBag.VencimentoValores, "Key", 
+                                                                               "Value", 
+                                                                               ViewBag.Filtros.Vencimento))">
                     <option value="todos">Todos</option>
                 </select>
             </div>
@@ -29,13 +33,16 @@
                 <label class="form-label">Situação</label>
                 <select name="StatusId"
                         class="form-select"
-                        asp-items="@(new SelectList(ViewBag.Status, "StatusId", "Nome", ViewBag.Filtros.StatusId))">
+                        asp-items="@(new SelectList(ViewBag.Status, "StatusId", 
+                                                                    "Nome", 
+                                                                    ViewBag.Filtros.StatusId))">
                     <option value="todos">Todos</option>
                 </select>
             </div>
 
             <div class="md-3">
                 <button type="submit" class="btn btn-primary">Filtrar</button>
+                <a asp-action="Index" asp-route-id="" class="btn btn-primary">Linpar</a>
             </div>
         </form>
 

@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\user\\documents\\aulas c#\\listadetarefas\\listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\user\\documents\\aulas c#\\listadetarefas\\listadetarefas\\models\\filtros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\models\\filtros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\user\\documents\\aulas c#\\listadetarefas\\listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\user\\documents\\aulas c#\\listadetarefas\\listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4CCFEB-B146-42A4-8543-F0EDDA585206}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Filtros.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Models\\Filtros.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Models\\Filtros.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Models\\Filtros.cs",
-              "RelativeToolTip": "ListaDeTarefas\\Models\\Filtros.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T22:19:51.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
-              "RelativeToolTip": "ListaDeTarefas\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T21:03:44.326Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,20 +36,33 @@
               "RelativeDocumentMoniker": "ListaDeTarefas\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ListaDeTarefas\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T20:08:01.451Z",
+              "WhenOpened": "2024-11-03T20:10:45.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Filtros.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Models\\Filtros.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Models\\Filtros.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Models\\Filtros.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Models\\Filtros.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA8wBwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T22:19:51.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Aulas C#\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ListaDeTarefas\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwEIAAAAJAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAqwEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T19:38:30.212Z",
               "EditorCaption": ""
